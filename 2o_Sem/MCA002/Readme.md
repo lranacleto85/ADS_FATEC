@@ -1,1 +1,1 @@
-<h1>Códigos realizados na disiplina de Matemática Discreta</h1>
+<h1>Códigos realizados na disiplina de Cálculo</h1>
