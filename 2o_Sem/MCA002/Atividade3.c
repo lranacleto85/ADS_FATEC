@@ -2,69 +2,86 @@
 //DOCENTE: MÁRCIO SABINO
 //DISCENTE: LEONARDO RAMOS ANACLETO 
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <math.h>
+#include <stdlib.h>
 
+// Função para verificar se um número é inteiro
+int is_integer(double num) {
+    return num == (int)num;
+}
 
-int main()
-{
-    int opcao, k;
-    double x, resultado;
+// Função para calcular a derivada e o valor de f(x) = x^k
+void derivada_x_potencia(double k, double x) {
+    if (x == 0 && k - 1 < 0) {
+        printf("Erro: Para x=0, k-1 nao pode ser negativo.\n");
+    } else if (x < 0 && !is_integer(k - 1)) {
+        printf("Erro: Para x<0, k-1 deve ser inteiro.\n");
+    } else {
+        double derivada = k * pow(x, k - 1);
+        printf("f1(%.2f) = %.2f\n", x, derivada);
+    }
+}
 
-    do
-    {
-        printf("\nMENU:\n");
-        printf("1 - f(x) = x^k\n");
-        printf("2 - f(x) = ln(x)\n");
-        printf("3 - f(x) = sin(x)\n");
-        printf("4 - SAIR\n");
-        printf("Escolha a função a ser derivada e avaliada em x: ");
+// Função para calcular a derivada e o valor de f(x) = ln(x)
+void derivada_ln(double x) {
+    if (x <= 0) {
+        printf("Erro: ln(x) indefinido para x<=0.\n");
+    } else {
+        double derivada = 1 / x;
+        printf("f1(%.2f) = %.2f\n", x, derivada);
+    }
+}
+
+// Função para calcular a derivada e o valor de f(x) = sin(x)
+void derivada_sin(double x) {
+    double derivada = cos(x);
+    printf("f1(%.2f) = %.2f\n", x, derivada);
+}
+
+int main() {
+    int opcao;
+    double k, x;
+
+    while (1) {
+        // Exibe o menu
+        printf("MENU:\n");
+        printf("1. f(x) = x^k\n");
+        printf("2. f(x) = ln(x)\n");
+        printf("3. f(x) = sin(x)\n");
+        printf("4. SAIR\n");
+        printf("Escolha a funcao a ser derivada e avaliada em x: ");
         scanf("%d", &opcao);
 
-        switch (opcao)
-        {
-        case 1:
-            printf("Digite k: ");
-            scanf("%d", &k);
-            if (k <= 0)
-            {
-                printf("O valor de k deve ser maior que zero. Tente novamente.\n");
+        // Processa a opção escolhida
+        switch (opcao) {
+            case 1:
+                // f(x) = x^k
+                printf("Digite k: ");
+                scanf("%lf", &k);
+                printf("Digite x: ");
+                scanf("%lf", &x);
+                derivada_x_potencia(k, x);
                 break;
-            }
-            printf("Digite x: ");
-            scanf("%lf", &x);
-            resultado = pow(x, k);
-            printf("f1(%.2lf) = %.2lf\n", x, resultado);
-            break;
-
-        case 2:
-            printf("Digite x: ");
-            scanf("%lf", &x);
-            if (x <= 0)
-            {
-                printf("O valor de x deve ser maior que zero para a função ln(x). Tente novamente.\n");
+            case 2:
+                // f(x) = ln(x)
+                printf("Digite x: ");
+                scanf("%lf", &x);
+                derivada_ln(x);
                 break;
-            }
-            resultado = log(x);
-            printf("f2(%.2lf) = %.2lf\n", x, resultado);
-            break;
-
-        case 3:
-            printf("Digite x: ");
-            scanf("%lf", &x);
-            resultado = sin(x);
-            printf("f3(%.2lf) = %.2lf\n", x, resultado);
-            break;
-
-        case 4:
-            printf("SAINDO...\n");
-            break;
-
-        default:
-            printf("Opção inválida. Tente novamente.\n");
+            case 3:
+                // f(x) = sin(x)
+                printf("Digite x: ");
+                scanf("%lf", &x);
+                derivada_sin(x);
+                break;
+            case 4:
+                // SAIR
+                printf("Saindo...\n");
+                exit(0);
+            default:
+                printf("Opcao invalida. Tente novamente.\n");
         }
-    } while (opcao != 4);
+    }
 
     return 0;
 }
