@@ -1,0 +1,3 @@
+D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/build/CMakeFiles/GerenciadorDeTarefas.dir
+D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/build/CMakeFiles/edit_cache.dir
+D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/build/CMakeFiles/rebuild_cache.dir

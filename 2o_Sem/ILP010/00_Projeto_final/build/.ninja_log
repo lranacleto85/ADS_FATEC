@@ -1,0 +1,6 @@
+# ninja log v6
+5	1820	7392295183325617	CMakeFiles/GerenciadorDeTarefas.dir/src/main.c.obj	d966b3cc8c9cb3b
+35	442	7392295183688461	CMakeFiles/GerenciadorDeTarefas.dir/src/produtividade.c.obj	fbe44564523cdadc
+5	302	7392295955463223	build.ninja	24b3e0f7df6181b7
+23	1113	7392295956266636	CMakeFiles/GerenciadorDeTarefas.dir/src/gui.c.obj	520fa609d44790e
+1113	1451	7392295967170671	GerenciadorDeTarefas.exe	940a05ebe2544727

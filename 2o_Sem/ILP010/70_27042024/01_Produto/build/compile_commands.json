@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/01_Produto/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/produto.dir/includes_C.rsp -g -o CMakeFiles\\produto.dir\\produto.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\70_27042024\\01_Produto\\produto.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/01_Produto/produto.c",
+  "output": "CMakeFiles/produto.dir/produto.c.obj"
+},
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/01_Produto/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\main.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\70_27042024\\01_Produto\\main.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/01_Produto/main.c",
+  "output": "CMakeFiles/main.dir/main.c.obj"
+},
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/01_Produto/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\produto.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\70_27042024\\01_Produto\\produto.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/01_Produto/produto.c",
+  "output": "CMakeFiles/main.dir/produto.c.obj"
+}
+]

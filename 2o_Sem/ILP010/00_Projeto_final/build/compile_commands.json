@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/GerenciadorDeTarefas.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\GerenciadorDeTarefas.dir\\src\\main.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\00_Projeto_final\\src\\main.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/src/main.c",
+  "output": "CMakeFiles/GerenciadorDeTarefas.dir/src/main.c.obj"
+},
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/GerenciadorDeTarefas.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\GerenciadorDeTarefas.dir\\src\\gui.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\00_Projeto_final\\src\\gui.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/src/gui.c",
+  "output": "CMakeFiles/GerenciadorDeTarefas.dir/src/gui.c.obj"
+},
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DLIBDEFLATE_DLL @CMakeFiles/GerenciadorDeTarefas.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\GerenciadorDeTarefas.dir\\src\\produtividade.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\00_Projeto_final\\src\\produtividade.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/src/produtividade.c",
+  "output": "CMakeFiles/GerenciadorDeTarefas.dir/src/produtividade.c.obj"
+}
+]

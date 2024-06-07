@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libaluno.a CMakeFiles/aluno.dir/aluno.c.obj
+C:\MinGW\bin\ranlib.exe libaluno.a

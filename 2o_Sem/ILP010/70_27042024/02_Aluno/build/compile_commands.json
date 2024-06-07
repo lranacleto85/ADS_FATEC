@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/02_Aluno/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/aluno.dir/includes_C.rsp -g -o CMakeFiles\\aluno.dir\\aluno.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\70_27042024\\02_Aluno\\aluno.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/02_Aluno/aluno.c",
+  "output": "CMakeFiles/aluno.dir/aluno.c.obj"
+},
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/02_Aluno/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\main.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\70_27042024\\02_Aluno\\main.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/02_Aluno/main.c",
+  "output": "CMakeFiles/main.dir/main.c.obj"
+},
+{
+  "directory": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/02_Aluno/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\aluno.c.obj -c \"D:\\Vscode\\10_FATEC\\20_2oSEM\\Linguagem_de_programacao _MAROMO\\70_27042024\\02_Aluno\\aluno.c\"",
+  "file": "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/70_27042024/02_Aluno/aluno.c",
+  "output": "CMakeFiles/main.dir/aluno.c.obj"
+}
+]

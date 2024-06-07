@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/Vscode/10_FATEC/20_2oSEM/Linguagem deprogramação _MAROMO/Lista 1/04_Modularidade com Funções, Arquivos .h e .c/14_Ordenação_de _Vetor",
+      "program": "d:/Vscode/10_FATEC/20_2oSEM/Linguagem deprogramação _MAROMO/Lista 1/04_Modularidade com Funções, Arquivos .h e .c/14_Ordenação_de _Vetor/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

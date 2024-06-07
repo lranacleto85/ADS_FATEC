@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20240427-2008-Experimental"
+	Name="Advice-2M0P79K"
+	Generator="ctest-3.29.2"
+	CompilerName="C:/MinGW/bin/g++.exe"
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="Advice-2M0P79K"
+	OSRelease=" Personal"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="21414"
+	TotalPhysicalMemory="12198"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2904"
+	>
+	<Testing>
+		<StartDateTime>Apr 27 18:30 Hora oficial do Brasil</StartDateTime>
+		<StartTestTime>1714253432</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 27 18:30 Hora oficial do Brasil</EndDateTime>
+		<EndTestTime>1714253432</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

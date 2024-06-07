@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GerenciadorDeTarefas",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GerenciadorDeTarefas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GerenciadorDeTarefas-Debug-cd33f2f49920503268c4.json",
+					"name" : "GerenciadorDeTarefas",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final/build",
+		"source" : "D:/Vscode/10_FATEC/20_2oSEM/Linguagem_de_programacao _MAROMO/00_Projeto_final"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
