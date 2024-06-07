@@ -18,8 +18,8 @@ Bem-vindo ao repositório do Gerenciador de Tarefas Pessoais com Análise de Pro
 
 ## Documentação:
 
-- O repositório inclui uma documentação detalhada que abrange a descrição do projeto, requisitos funcionais, diagramas de fluxo de dados, e instruções de instalação e uso.
-- As informações relacionadas à gestão de projeto estão disponíveis no Confluence, como parte das disciplinas ministradas pelo professor Marcos Roberto de Moraes e pela professora Ana Celia Ribeiro Bizigato Portes.
+- O repositório inclui uma documentação detalhada que abrange a descrição do projeto, requisitos funcionais, diagramas de fluxo de dados, e instruções de instalação e uso. [BACKLOG](https://fatec-team-ry27arty.atlassian.net/jira/software/projects/PAC/issues/?jql=project%20%3D%20%22PAC%22%20ORDER%20BY%20created%20DESC)
+- As informações relacionadas à gestão de projeto estão disponíveis no Confluence, como parte das disciplinas ministradas pelo professor Marcos Roberto de Moraes e pela professora Ana Celia Ribeiro Bizigato Portes. [CONFLUENCE](https://fatec-team-ry27arty.atlassian.net/jira/software/projects/PAC/pages)
 - A documentação é atualizada regularmente para refletir o progresso e as mudanças no projeto, garantindo transparência e clareza para todos os colaboradores.
 
 ## Como Contribuir:
