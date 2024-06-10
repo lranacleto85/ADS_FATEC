@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "d:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final/**",
+                "C:/msys64/mingw64/include/gtk-4.0",
+                "C:/msys64/mingw64/lib/glib-2.0/include",
+                "C:/msys64/mingw64/include/glib-2.0",
+                "C:/msys64/mingw64/include/cairo",
+                "C:/GTK/lib/glib-2.0/include",
+                "C:/msys64/mingw64/include/pango-1.0/pango",
+                "C:/msys64/mingw64/include/pango-1.0",
+                "C:/msys64/mingw64/include/harfbuzz",
+                "C:/msys64/mingw64/include/gdk-pixbuf-2.0",
+                "C:/msys64/mingw64/include/graphene-1.0",
+                "C:/msys64/mingw64/include/graphene-1.0"
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "d:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final/**",
+                    "C:/msys64/mingw64/include/gtk-4.0",
+                    "C:/msys64/mingw64/lib/glib-2.0/include",
+                    "C:/msys64/mingw64/include/glib-2.0",
+                    "C:/msys64/mingw64/include/cairo",
+                    "C:/GTK/lib/glib-2.0/include",
+                    "C:/msys64/mingw64/include/pango-1.0/pango",
+                    "C:/msys64/mingw64/lib/gdk-pixbuf-2.0",
+                    "C:/msys64/mingw64/include/gdk-pixbuf-2.0",
+                    "C:/msys64/mingw64/include/graphene-1.0",
+                    "C:/GTK/include/graphene-1.0",
+                    
+                    "d:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

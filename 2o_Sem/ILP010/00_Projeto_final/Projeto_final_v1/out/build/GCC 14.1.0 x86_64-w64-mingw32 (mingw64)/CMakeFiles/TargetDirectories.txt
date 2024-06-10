@@ -1,0 +1,3 @@
+D:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final_v1/out/build/GCC 14.1.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/GerenciadorDeTarefas.dir
+D:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final_v1/out/build/GCC 14.1.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/edit_cache.dir
+D:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final_v1/out/build/GCC 14.1.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/rebuild_cache.dir

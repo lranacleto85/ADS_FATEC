@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GerenciadorDeTarefas",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GerenciadorDeTarefas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GerenciadorDeTarefas-Debug-ef0a99eefd45b4b94a10.json",
+					"name" : "GerenciadorDeTarefas",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final_v1/out/build/GCC 14.1.0 x86_64-w64-mingw32 (mingw64)",
+		"source" : "D:/Vscode/Projeto_Final/Logica_programacao_FATEC_MAROMO/Projeto_final_v1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
