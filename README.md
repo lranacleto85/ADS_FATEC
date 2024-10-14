@@ -30,7 +30,6 @@ A estrutura do repositório é organizada por semestre e disciplina, conforme o 
 ├── 3º_Semestre
 │   ├── IBD002A - Banco de Dados
 │   ├── IED001A - Estruturas de Dados
-│   ├── IED001A - Estruturas de Dados
 │   ├── ILP502A - Programação de Scripts
 │   ├── ISO100A - Sistemas Operacionais I
 │   └── ...
