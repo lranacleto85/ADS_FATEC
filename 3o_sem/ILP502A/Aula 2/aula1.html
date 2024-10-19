@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Cafés Gourmet." />
+    <meta name="keywords" content="café, coffee, grão, arábica" />
+    <meta name="author" content="Leonardo Anacleto" />
+    <title>Café dos Sonhos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Café dos Sonhos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h2>Seja bem-vindo ao Café dos Sonhos!</h2>
+        <p>
+            O Café dos Sonhos oferece uma experiência única com os melhores cafés e doces da cidade.
+            Venha nos visitar e desfrutar de um ambiente aconchegante.
+        </p>
+        <p>Confira algumas das nossas bebidas mais populares:</p>
+        <ul>
+            <li>Café Espresso</li>
+            <li>Cappuccino</li>
+            <li>Latte Macchiato</li>
+        </ul>
+        <p>Siga estas etapas para fazer um pedido online:</p>
+        <ol>
+            <li>Acesse nossa página de pedidos.</li>
+            <li>Escolha suas bebidas e doces favoritos.</li>
+            <li>Preencha suas informações de contato e endereço.</li>
+            <li>Confirme seu pedido e aguarde a entrega.</li>
+        </ol>
+    </article>
+
+    <fieldset>
+        <legend>Contato</legend>
+        <form>
+            <!-- Campo Nome -->
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required /><br /><br />
+
+            <!-- Campo Email -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required /><br /><br />
+
+            <!-- Campo Gênero -->
+            <label>Gênero:</label>
+            <input type="radio" name="gender" value="male" id="male" />
+            <label for="male">Masculino</label>
+            <input type="radio" name="gender" value="female" id="female" />
+            <label for="female">Feminino</label><br /><br />
+
+            <!-- Interesses -->
+            <h5>Interesses:</h5>
+            <input type="checkbox" name="interests" value="eventos" id="eventos" />
+            <label for="eventos">Eventos</label><br />
+
+            <input type="checkbox" name="interests" value="promo" id="promo" />
+            <label for="promo">Promoções</label><br />
+
+            <input type="checkbox" name="interests" value="news" id="news" />
+            <label for="news">Novidades</label><br /><br />
+
+            <!-- Campo Mensagem -->
+            <label for="message">Mensagem:</label><br />
+            <textarea name="message" id="message" rows="5" required></textarea><br /><br />
+
+            <!-- Botão de Envio -->
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+
+    <footer>
+        <p>Escrito por <a href="mailto:contato@cafedossonhos.com">Café dos Sonhos</a></p>
+        <p>Visite-nos em:</p>
+        <address>Rua dos Sonhos, 123, Cidade dos Sonhos, 12345-678</address>
+    </footer>
+</body>
+
+</html>
