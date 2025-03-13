@@ -33,6 +33,8 @@ A estrutura do repositório é organizada por semestre e disciplina, conforme o 
 │   ├── ILP502A - Programação de Scripts
 │   ├── ISO100A - Sistemas Operacionais I
 │   └── ...
+└── 4º_Semestre (ainda não comitado)
+    └── ILP007 - Programação Orientada a Objetos
 ```
 
 ## Principais Disciplinas
