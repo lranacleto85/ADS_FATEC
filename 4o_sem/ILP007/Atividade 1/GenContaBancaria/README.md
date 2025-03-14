@@ -1,9 +1,3 @@
-Aqui está um **README.md** completo e bem estruturado para o seu projeto **Gerenciador de Contas Bancárias** dentro do repositório **ADS_FATEC**.
-
----
-
-## 📌 **README.md para o projeto GenContaBancaria**
-```markdown
 # 💰 Gerenciador de Contas Bancárias (Java - POO)
 
 Este projeto é uma atividade prática da disciplina **ILP007 - Programação Orientada a Objetos** do **4º semestre** do curso de **Análise e Desenvolvimento de Sistemas (ADS) - FATEC**.  
