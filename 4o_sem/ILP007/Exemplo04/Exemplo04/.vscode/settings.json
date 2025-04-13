@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Executar Programa Java",
+            "mainClass": "App",
+            "console": "integratedTerminal"
+        }
+    ],
+    "java.project.sourcePaths": [
+        "src"
+    ]
+}
