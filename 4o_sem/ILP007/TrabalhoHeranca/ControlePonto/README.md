@@ -1,4 +1,3 @@
-Com certeza! Aqui está um `README.md` pronto para o seu projeto **ControlePonto**, com foco acadêmico, boas práticas e descrição clara de tudo o que foi implementado.
 
 ---
 
@@ -95,7 +94,5 @@ Maromo – Fatec Mogi Mirim
 ## 👨‍💻 Autor:
 **Leonardo Ramos Anacleto**  
 Desenvolvedor em formação – ADS Fatec Mogi Mirim  
-```
 
 ---
-
