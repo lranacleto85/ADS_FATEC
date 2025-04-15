@@ -65,6 +65,7 @@ controleponto/
 ### 🧪 Exemplo de Saída:
 
 ```
+
 ==================================
 Funcionário: João Silva
 Data de Registro: 15/04/2025
@@ -75,7 +76,6 @@ Funcionário: João Silva
 Data de Registro: 15/04/2025
 Hora de Entrada: 17:08:57
 Hora de Saída: 17:09:00
-```
 
 ---
 
@@ -99,4 +99,3 @@ Desenvolvedor em formação – ADS Fatec Mogi Mirim
 
 ---
 
-Se quiser, posso salvar esse conteúdo em um arquivo `.md` e já deixar ele pronto para inserir no repositório ou na pasta do projeto. Quer que eu gere o arquivo agora?
