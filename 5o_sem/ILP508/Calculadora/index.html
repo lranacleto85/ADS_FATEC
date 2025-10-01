@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Calculadora moderna com histórico e alternância de tema" />
+  <title>Calculadora - Leonardo Anacleto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="app">
+    <section class="calculator" id="calculator" role="application" aria-label="Calculadora">
+      <header class="calculator__header">
+        <h1 class="calculator__title">Calculadora</h1>
+        <div class="calculator__controls">
+          <button class="btn btn--secondary" id="historyToggle" type="button" aria-label="Alternar histórico"
+            data-tooltip="Histórico de cálculos">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </button>
+          <button class="btn btn--ghost theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema"
+            data-tooltip="Alternar tema claro/escuro">
+            <svg class="icon icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <circle cx="12" cy="12" r="5" />
+              <path
+                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+            </svg>
+            <svg class="icon icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <div class="display" id="display" role="region" aria-label="Display da calculadora">
+        <div class="display__expression" id="expression" aria-label="Expressão atual"></div>
+        <div class="display__result" id="result" aria-live="polite">0</div>
+      </div>
+
+      <div class="keypad" id="keypad" aria-label="Teclado da calculadora">
+        <button class="key key--power" data-key="power" type="button" aria-label="Ligar/Desligar">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M18.36 6.64a9 9 0 11-12.73 0" />
+            <line x1="12" y1="2" x2="12" y2="12" />
+          </svg>
+        </button>
+        <button class="key key--operator" data-key="clear" type="button" aria-label="Limpar">C</button>
+        <button class="key key--operator" data-key="sqrt" type="button" aria-label="Raiz quadrada">√</button>
+        <button class="key key--operator" data-key="exponent" type="button" aria-label="Potência">^</button>
+
+        <button class="key key--number" data-key="7" type="button">7</button>
+        <button class="key key--number" data-key="8" type="button">8</button>
+        <button class="key key--number" data-key="9" type="button">9</button>
+        <button class="key key--operator" data-key="divide" type="button" aria-label="Divisão">÷</button>
+
+        <button class="key key--number" data-key="4" type="button">4</button>
+        <button class="key key--number" data-key="5" type="button">5</button>
+        <button class="key key--number" data-key="6" type="button">6</button>
+        <button class="key key--operator" data-key="multiply" type="button" aria-label="Multiplicação">×</button>
+
+        <button class="key key--number" data-key="1" type="button">1</button>
+        <button class="key key--number" data-key="2" type="button">2</button>
+        <button class="key key--number" data-key="3" type="button">3</button>
+        <button class="key key--operator" data-key="subtract" type="button" aria-label="Subtração">−</button>
+
+        <button class="key key--number" data-key="0" type="button">0</button>
+        <button class="key key--operator" data-key="decimal" type="button" aria-label="Vírgula decimal">,</button>
+        <button class="key key--operator" data-key="percent" type="button" aria-label="Porcentagem">%</button>
+        <button class="key key--operator" data-key="add" type="button" aria-label="Adição">+</button>
+
+        <button class="key key--operator" data-key="openParen" type="button" aria-label="Parêntese aberto">(</button>
+        <button class="key key--operator" data-key="closeParen" type="button" aria-label="Parêntese fechado">)</button>
+        <button class="key key--equals" data-key="equals" type="button" aria-label="Igual">=</button>
+      </div>
+    </section>
+
+    <aside class="history" id="history" role="complementary" aria-label="Histórico de cálculos">
+      <div class="history__header">
+        <button class="btn btn--ghost btn--sm" id="clearHistory" type="button" aria-label="Limpar histórico"
+          data-tooltip="Limpar todo o histórico">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <polyline points="3,6 5,6 21,6" />
+            <path d="M19,6v14a2,2 0 0,1 -2,2H7a2,2 0 0,1 -2,-2V6m3,0V4a2,2 0 0,1 2,-2h4a2,2 0 0,1 2,2v2" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="history__list" id="historyList" role="log" aria-live="polite">
+        <div class="history__empty">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="12" y1="8" x2="12" y2="12" />
+            <line x1="12" y1="16" x2="12.01" y2="16" />
+          </svg>
+          <p>Nenhum cálculo realizado</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
